@@ -15,7 +15,7 @@ namespace JogoDeMemoria
 
     public partial class Jogo : Form
     {
-        private JogoDaVelha _Jogo;
+        private JogoDaMemoria _Jogo;
 
         public void AtualizarJogada(int qtdade)
         {
@@ -25,7 +25,7 @@ namespace JogoDeMemoria
         public Jogo()
         {
             InitializeComponent();
-            _Jogo = new JogoDaVelha(this);         
+            _Jogo = new JogoDaMemoria(this);         
         }
         
 
