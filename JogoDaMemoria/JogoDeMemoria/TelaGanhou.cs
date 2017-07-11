@@ -29,10 +29,11 @@ namespace JogoDeMemoria
         private void btnJogarNovamente_Click(object sender, EventArgs e)
         {
            
-            ganhouSound.Stop();
+         //   ganhouSound.Stop();
+            Hide(); 
             TelaInicial inicial = new TelaInicial();
             inicial.ShowDialog();          
-            Hide();  
+             
         }
 
         private void btnSair_Click(object sender, EventArgs e)
